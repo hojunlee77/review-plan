@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Review Planer</h1>
+    <form class="form">
+      <div class="today">
+        <label for="start">Start date</label>
+        <input
+          type="date"
+          id="start"
+          name="learning-start"
+          value="2020-04-15"
+          min="2020-01-01"
+          max="2020-12-31"
+        />
+        <div class="content">
+          <label for="content">Tell us what you today learned:</label>
+          <textarea id="content" name="content" rows="5" cols="33">
+Nothing !?!?
+</textarea
+          >
+        </div>
+      </div>
+    </form>
+    <div class="plan">
+      <h3 class="plan-title">You studied:</h3>
+      <span class="plan-content">this, this and this</span>
+      <span>You should review these on:</span>
+      <ul class="plan-lists">
+        <li class="plan-lists__list">2000.00.00</li>
+      </ul>
+    </div>
+  </body>
+</html>
